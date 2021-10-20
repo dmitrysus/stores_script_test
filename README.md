@@ -18,3 +18,13 @@ pip install -r requirements.txt
 ```
 python parse_stores.py <file.csv>
 ```
+
+## Known issues
+
+- missing tests
+- missing proper logging
+- type annotations would be nice to have too
+- there are few fragile/not efficient parts that 
+  can produce unexpected errors due to low familiarity 
+  with shopify and a nature of a web scraping
+- probably not fully utilized async capabilities
